@@ -50,8 +50,10 @@ class _CustomListTile extends StatelessWidget {
       ),
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subTitle),
-      onTap: (){
-        //TODO navigate to other screen
+      onTap: () {
+        //Navigator.of(context)
+        //  .push(MaterialPageRoute(builder: (context) => const CardsScreen()));
+        Navigator.pushNamed(context, menuItem.link);
       },
     );
   }
