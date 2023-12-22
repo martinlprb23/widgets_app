@@ -35,6 +35,11 @@ const appMenuItems = <MenuItem>[
       link: "/snackbars",
       icon: Icons.message),
   MenuItem(
+      title: "Animated container",
+      subTitle: "Stateful widget animated",
+      link: "/animated",
+      icon: Icons.check_box_outline_blank_rounded),
+  MenuItem(
       title: "Ui Controls + Tiles",
       subTitle: "Ui controls in flutter",
       link: "/ui-controls",
