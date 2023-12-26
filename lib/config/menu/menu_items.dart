@@ -59,4 +59,9 @@ const appMenuItems = <MenuItem>[
       subTitle: "Infinite list and pull to refresh",
       link: "/infinite",
       icon: Icons.list_alt_rounded),
+  MenuItem(
+      title: "Change theme",
+      subTitle: "Change default theme",
+      link: "/theme-charger",
+      icon: Icons.color_lens_outlined),
 ];

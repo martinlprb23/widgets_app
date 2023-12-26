@@ -8,3 +8,4 @@ export 'package:widgets_app/ui/screens/infinite_scroll/infinite_scroll_screen.da
 export 'package:widgets_app/ui/screens/progress/progress_screen.dart';
 export 'package:widgets_app/ui/screens/snackbar/snackbar_screen.dart';
 export 'package:widgets_app/ui/screens/ui_controls/ui_controls_screen.dart';
+export 'package:widgets_app/ui/screens/themer_changer/theme_changer_screen.dart';
